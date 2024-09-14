@@ -656,14 +656,14 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 6:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
+					createCoolText(['A Mod', 'By'], -40);
 					#else
 					createCoolText(['In association', 'with'], -40);
 					#end
 				case 8:
-					addMoreText('newgrounds', -40);
+					addMoreText('Badguy', -40);
 					ngSpr.visible = true;
-				// credTextShit.text += '\nNikitos';
+				// credTextShit.text += '\nBadguy';
 				case 9:
 					deleteCoolText();
 					ngSpr.visible = false;
@@ -680,16 +680,16 @@ class TitleState extends MusicBeatState
 				case 13:
 					deleteCoolText();
 				// credTextShit.visible = false;
-				// credTextShit.text = "Friday";
+				// credTextShit.text = "FNF";
 				// credTextShit.screenCenter();
 				case 14:
 					addMoreText('FNF');
 				// credTextShit.visible = true;
 				case 15:
 					addMoreText('vs');
-				// credTextShit.text += '\nNight';
+				// credTextShit.text += '\nvs';
 				case 16:
-					addMoreText('Nikitos'); // credTextShit.text += '\nFunkin';
+					addMoreText('Nikitos'); // credTextShit.text += '\nNikitos';
 
 				case 17:
 					skipIntro();
